@@ -62,5 +62,6 @@ public class Main {
         System.out.printf("%57s %-2.0f%n", "Pajak 10%       Rp.", pajak);
         double totalBayarPajak = totalBayar + pajak;
         System.out.printf("%57s %-2.0f%n", "Total Bayar     Rp.", totalBayarPajak);
+        System.out.println("====================================================================");
     }
 }
