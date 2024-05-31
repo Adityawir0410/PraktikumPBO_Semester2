@@ -3,11 +3,11 @@ package Laprak13;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
-    
+
 public class Main {
     public static void main(String[] args) {
         try {
-            FileWriter writer = new FileWriter("DaftarTransaksi1.txt");
+            FileWriter writer = new FileWriter("DaftarTransaksi.txt");
 
             System.out.println("Kode\tJenis\tHarga");
             System.out.println("=======================");
