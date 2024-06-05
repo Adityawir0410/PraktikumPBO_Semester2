@@ -53,7 +53,7 @@ public class Main {
                 }
                 System.out.print("Banyak Potong: ");
                 banyakPotong[i] = scanner.nextInt();
-                scanner.nextLine(); // Mengonsumsi newline yang tersisa
+                scanner.nextLine();
                 jumlahHarga[i] = banyakPotong[i] * hargaSatuan[i];
                 totalBayar += jumlahHarga[i];
             }
